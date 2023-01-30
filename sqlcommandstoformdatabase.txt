@@ -1,0 +1,17 @@
+CREATE TABLE nta (
+       rollno int,
+    name varchar(255),
+   dob date,
+ answers varchar(255)
+    );
+
+INSERT INTO nta (rollno, name, dob, answers)
+VALUES ('1', 'anshu', '2004-12-01', 'abcdabcdabcdabcdabcdabcda');
+
+
+INSERT INTO nta (rollno, name, dob, answers)
+VALUES ('2', 'shiv', '2004-12-02', 'abcdabcdabcdabcdabcdabcdd');
+
+
+INSERT INTO nta (rollno, name, dob, answers)
+VALUES ('3', 'druv', '2004-12-03', 'abcdabcdabcdabcdabcdabcdc');
